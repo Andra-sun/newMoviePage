@@ -1,0 +1,57 @@
+#divDoNavBar{
+    display: block;
+    width: auto;
+    height: 100%;
+    margin-right: 5rem;
+    background-color: deeppink;
+}
+#navBar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    top: 0;
+    position:fixed;
+    z-index: 999;
+    background-color: #ffffff8f;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.3);
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+.nav-item i {
+    margin: 0;
+    font-size: 20px;
+}
+.p {
+    display: none;
+    margin-left: 15px;
+    margin: none;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+#navBar:hover .p {
+    display: flex;
+}
+#navBar:hover {
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+#navBar:hover .nav-item {
+    padding-right: 1rem;
+    margin: 0;
+    align-items: center;
+    justify-content: left;
+}
+#navBar:hover i {
+    margin-left: 10px;
+}

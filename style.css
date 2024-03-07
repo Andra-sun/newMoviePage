@@ -1,0 +1,6 @@
+body {
+    display: flex;
+    flex-direction: row;
+    background-color: #ccc;
+    font-family: "Poppins";
+}
