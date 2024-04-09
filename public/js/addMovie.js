@@ -28,7 +28,7 @@ document.getElementById("addMovie").addEventListener("click", function () {
         .then((response) => {
             if (response.ok) {
                 alert("filme adicionado com sucesso!");
-                location.reload(); // Refresh the page after successful addition
+                location.reload();
             } else {
                 alert("Falha a enviar");
             }

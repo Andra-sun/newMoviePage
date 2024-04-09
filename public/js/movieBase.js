@@ -23,6 +23,10 @@ function createMovieCard(movie) {
     rate.textContent = movie.rate;
     card.appendChild(rate);
 
+    const date = document.createElement("h6");
+    date.textContent = movie.date;
+    card.appendChild(date);
+
     const img = document.createElement("img");
     img.src = movie.poster;
     img.alt = movie.title;

@@ -33,7 +33,7 @@
     cursor: pointer;
     color: var(--color-main);
 }
-.nav-item i:hover{
+.nav-item:hover i{
     color: var(--color-main-hover);
 }
 .p {
@@ -50,7 +50,7 @@
 #navBar:hover {
     align-items: center;
     justify-content: center;
-    width: auto;
+    width: 10rem;
 }
 #navBar:hover .nav-item {
     padding-right: 1rem;
@@ -60,4 +60,36 @@
 }
 #navBar:hover i {
     margin-left: 10px;
+}
+.nav-item:hover{
+    background-color: #f0f0f03d;
+    cursor: pointer;
+}
+.filtro {
+    display: none;
+    width: 9rem;
+    overflow: hidden;
+    border: none;
+}
+.filtro ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.filtroLi {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid var(--color-main);
+    border-left: 1px solid var(--color-main);
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.filtroLi:hover {
+    background-color: #f0f0f04f;
+    color: var(--color-fg);
 }

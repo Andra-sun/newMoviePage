@@ -25,23 +25,43 @@
     <body data-theme="escuro">
         <div id="divDoNavBar">
             <nav-bar id="navBar">
-                <div class="nav-item">
+                <div class="nav-item" id="home">
                     <i class="fi fi-rr-home"></i>
                     <p class="p">inicio</p>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item" id="avaliacao">
                     <i class="fi fi-rr-chart-histogram"></i>
                     <p class="p">avaliacao</p>
                 </div>
-                <div class="nav-item">
+                <div id="avaliacaoFiltro" class="filtro">
+                    <ul>
+                        <li id="avaliacaoFiltro01" class="filtroLi">
+                            Menor nota para maior nota
+                            </li>
+                        <li id="avaliacaoFiltro02" class="filtroLi">
+                            Maior nota para menor nota
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-item" id="data">
                     <i class="fi fi-rr-calendar"></i>
                     <p class="p">data</p>
                 </div>
-                <div class="nav-item">
+
+                <div id="dataFiltro" class="filtro">
+                    <ul>
+                        <li id="dataFiltro01" class="filtroLi">mais antigo para mais recente</li>
+                        <li id="dataFiltro02" class="filtroLi">
+                            mais recente para o mais antigo
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-item" id="sugestao">
                     <i class="fi fi-rr-comment"></i>
                     <p class="p">sugestao</p>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item" id="adicionar">
                     <i class="fi fi-rr-add-document"></i>
                     <p class="p">adicionar</p>
                 </div>
@@ -52,5 +72,6 @@
         </main>
         <script src="js/theme.js"></script>
         <script src="js/movieBase.js"></script>
+        <script src="js/navBar.js"></script>
     </body>
 </html>
