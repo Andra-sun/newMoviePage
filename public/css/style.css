@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins";
+    transition: background-color 0.3s ease;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-main) var(--color-main-hover);
+}
+
+[data-theme="claro"] {
+    --color-bg: #f6f6f6f6;
+    --color-fg: #000000;
+    --color-main: #8a2be2;
+    --color-main-hover: #6a1b9a;
+    --color-detail: #91f733;
+    --color-card: #fff;
+}
+[data-theme="escuro"] {
+    --color-bg: #1e1e1e;
+    --color-fg: #ffffff;
+    --color-main: #8a2be2;
+    --color-main-hover: #6a1b9a;
+    --color-detail: #91f733;
+    --color-detail-hover: #61b117;
+    --color-card: #313131;
+}
+::selection {
+    background-color: var(--color-detail);
+}
+input {
+    caret-color: var(--color-fg);
+}

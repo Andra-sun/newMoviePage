@@ -1,0 +1,92 @@
+[
+    {
+        "id": "qyu45tnvr",
+        "title": "Jonh Wick 1",
+        "poster": "https://img.elo7.com.br/product/original/265E425/big-poster-filme-john-wick-lo02-tamanho-90x60-cm-poster-cinema.jpg",
+        "banner": "https://images.squarespace-cdn.com/content/v1/578e7a0c197aea26a696f7f1/1558104419251-319NEAB648MY9H142FKN/banner.png",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "John Wick é um ex-assassino que busca vingança após o roubo de seu carro e a morte de seu cachorro.",
+        "rate": 7.8
+    },
+    {
+        "id": "jvy87hoqu",
+        "title": "John Wick 2",
+        "poster": "https://img.elo7.com.br/product/zoom/265E4B7/big-poster-filme-john-wick-um-novo-dia-para-matar-lo2-90x60-poster.jpg",
+        "banner": "https://gruesomemagazine.com/wp-content/uploads/sites/6/2017/02/gruesome-banner-john-wick-2.jpg",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "John Wick é forçado a voltar ao mundo do crime para pagar uma dívida antiga.",
+        "rate": 7.8
+    },
+    {
+        "id": "77jpod2qo",
+        "title": "John Wick 3",
+        "poster": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/john-wick-3-john-poster-vertonung-strec.jpg",
+        "banner": "https://sm.ign.com/ign_br/gallery/j/john-wick-/john-wick-4-the-cast-of-the-action-sequel_vpr9.jpg",
+        "date": "Fevereiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "John Wick se torna alvo de assassinos após uma recompensa ser colocada em sua cabeça.",
+        "rate": 7.8
+    },
+    {
+        "id": "b34e72g2q",
+        "title": "Detetive Pikachu",
+        "poster": "https://img.elo7.com.br/product/zoom/26D0020/big-poster-filme-pokemon-detetive-pikachu-lo006-90x60-cm-poster.jpg",
+        "banner": "https://img.elo7.com.br/product/main/3AE0C65/painel-1x65cm-detetive-pikachu-decoracao-detetive-pikachu.jpg",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "Um jovem une forças com o Detetive Pikachu para resolver o desaparecimento de seu pai.",
+        "rate": 3.5
+    },
+    {
+        "id": "tjj04jbps",
+        "title": "One Piece red",
+        "poster": "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/03/imagem_2022-03-28_115642.png",
+        "banner": "https://uploads.jovemnerd.com.br/wp-content/uploads/2022/10/one_piece_film_red_sessoes_antecipadas__6ul00pg.jpg",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "Uta - a cantora mais amada do mundo. Sua voz, com a qual ela canta enquanto esconde sua verdadeira identidade, foi descrita como \"de outro mundo\". Ela aparecerá em público pela primeira vez em um show ao vivo. Enquanto o local se enche de todos os tipos de fãs de Uta - piratas animados, a Marinha assistindo de perto e os Chapéus de Palha liderados por Luffy que simplesmente vieram para curtir sua performance sonora - a voz que o mundo inteiro estava esperando está prestes a ressoar. A história começa com o fato chocante de que ela é \"filha de Shanks\".",
+        "rate": 7
+    },
+    {
+        "id": "ceqhk63fr",
+        "title": "Django Livre",
+        "poster": "https://www.tallengestore.com/cdn/shop/products/06_13cd0aaa-2514-4622-a49d-f36aa483bd48.jpg?v=1568967563",
+        "banner": "https://s2.glbimg.com/GwYaffqVVj62F6f2y0TdS90xpwc=/1200x630/s.glbimg.com/jo/g1/f/original/2013/01/08/django.jpg",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "Um escravo liberto se une a um caçador de recompensas para resgatar sua esposa de um cruel proprietário de plantação.",
+        "rate": 9.9
+    },
+    {
+        "id": "y9qfa1mof",
+        "title": "Bastardos Inglorios",
+        "poster": "https://a-static.mlcdn.com.br/450x450/poster-cartaz-bastardos-inglorios-a-pop-arte-poster/poparteskins2/15938519935/1f0696d1e6dda2fde413081f2e5a00f3.jpeg",
+        "banner": "https://www.planocritico.com/wp-content/uploads/2019/08/817-Bastardos-Inglorios-Trilha-Sonora.jpg",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "Um grupo de soldados judeus planeja assassinar líderes nazistas durante a Segunda Guerra Mundial.",
+        "rate": 8.7
+    },
+    {
+        "id": "pkwpjif62",
+        "title": "Tudo em todo lugar ao mesmo tempo",
+        "poster": "https://cinepop.com.br/wp-content/uploads/2022/04/tudo-em-todo-lado-ao-mesmo-tempo.jpg",
+        "banner": "https://cinepop.com.br/wp-content/uploads/2023/01/tudo-em-todo-lugar-ao-mesmo-tempo.jpg.webp",
+        "date": "Janeiro de 2024",
+        "onde": "Amazon Prime Video",
+        "description": "Uma ruptura interdimensional bagunça a realidade e uma inesperada heroína precisa usar seus novos poderes para lutar contra os perigos bizarros do multiverso.",
+        "rate": 9.8
+    },
+    {
+        "id": "6loib199k",
+        "title": "A sociedade da neve",
+        "poster": "https://m.media-amazon.com/images/I/81yUCMSkalL._AC_UF1000,1000_QL80_.jpg",
+        "banner": "https://s2-techtudo.glbimg.com/KaDD9noww-N8i9o5v1RlATIMEOE=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2024/4/g/qHxoQmQ22fUsFkrXqQeg/aaaaqtp-khecq-dvnjvwltfk77sug7tipultpaeejjde-ld8ppgmm8nkk0vwxyvuv9et1yu-iignrs9vi2xbrckfud5fnv4v8v3udsx3g5zb0byl0grdzdkpmzwlpyhohnjznqbifjtfugqkwm-d1eqd-zgczyu.jpg",
+        "date": "Fevereiro de 2024",
+        "onde": "Netflix",
+        "description": "Em 1972, um voo vindo do Uruguai colide com uma geleira nos Andes. Apenas 29 dos seus 45 passageiros sobreviveram ao acidente. Presos em um dos ambientes mais hostis do planeta, eles são forçados a lutar pelas suas vidas.",
+        "rate": 9
+    }
+]

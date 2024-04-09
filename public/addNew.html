@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/addNew.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>add</title>
+    </head>
+    <body data-theme="escuro">
+        <div id="senha">
+            <h1>Preencha corretamente</h1>
+            <label for="user">Usuario:</label>
+            <input type="text" name="user" id="userInput" />
+
+            <label for="password">Senha:</label>
+            <input type="text" name="password" id="passwordInput" />
+
+            <button id="conferirLogin">Entrar</button>
+        </div>
+        <div id="corpo" style="display: none">
+            <div id="container">
+                <h1>Adicionar novo filme</h1>
+                <label for="title">Título:</label>
+                <input type="text" name="title" id="titleInput" />
+
+                <label for="poster">Poster Link:</label>
+                <input type="text" name="poster" id="posterInput" />
+
+                <label for="banner">Banner Do Filme:</label>
+                <input type="text" name="banner" id="bannerInput" />
+
+                <label for="date">Quando viu:</label>
+                <input type="text" name="date" id="dateInput" />
+
+                <label for="onde">Onde Assistiu:</label>
+                <input type="text" name="onde" id="ondeInput" />
+
+                <label for="description">Descrição:</label>
+                <textarea
+                    name="description"
+                    id="descreptionInput"
+                    cols="30"
+                    rows="5"
+                ></textarea>
+
+                <label for="rate">Nota:</label>
+                <input type="text" name="rate" id="rateInput" />
+
+                <button id="addMovie">Adicionar filme</button>
+            </div>
+        </div>
+        <script src="js/addMovie.js"></script>
+        <script>
+            document
+                .getElementById("conferirLogin")
+                .addEventListener("click", () => {
+                    const usuario = document.getElementById("userInput").value;
+                    const senha =
+                        document.getElementById("passwordInput").value;
+
+                    if (usuario === "andra" && senha === "pitty") {
+                        // Usando === para comparação
+                        alert("Acesso permitido");
+                        document.getElementById("corpo").style.display = "flex";
+                        document.getElementById("senha").style.display = "none";
+                    } else {
+                        alert("Acesso negado");
+                        document.getElementById("userInput").value = ""; // Limpar o campo de usuário
+                        document.getElementById("passwordInput").value = ""; // Limpar o campo de senha
+                        document.getElementById("corpo").style.display = "none";
+                    }
+                });
+        </script>
+    </body>
+</html>
